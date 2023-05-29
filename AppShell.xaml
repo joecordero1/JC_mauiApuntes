@@ -6,9 +6,16 @@
     xmlns:local="clr-namespace:JC_mauiApuntes"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Title="Notes"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Icon="{OnPlatform 'JC_icon_notes.png', iOS='JC_icon_notes_ios.png', MacCatalyst='JC_icon_notes_ios.png'}" />
+
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate local:AboutPage}"
+            Icon="{OnPlatform 'JC_icon_about.png', iOS='JC_icon_about_ios.png', MacCatalyst='JC_icon_about_ios.png'}" />
+    </TabBar>
 
 </Shell>
