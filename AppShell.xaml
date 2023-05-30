@@ -9,7 +9,7 @@
     <TabBar>
         <ShellContent
             Title="Notas"
-            ContentTemplate="{DataTemplate local:JC_NotePage}"
+            ContentTemplate="{DataTemplate views:JC_AllNotesPage}"
             Icon="{OnPlatform 'jc_icon_notes.png', iOS='jc_icon_notes_ios.png', MacCatalyst='jc_icon_notes_ios.png'}" />
 
         <ShellContent

@@ -11,6 +11,7 @@
                 HorizontalOptions="Center" />
         <Editor x:Name="JC_TextEditor"
                 Placeholder="Ingresa la nota aquí!"
+                Text="{Binding Text}"
                 HeightRequest="100" />
 
         <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
