@@ -1,4 +1,4 @@
-namespace JC_mauiApuntes;
+namespace JC_mauiApuntes.JC_Views;
 
 public partial class JC_NotePage : ContentPage
 {
