@@ -3,7 +3,7 @@ namespace JC_mauiApuntes.JC_Views;
 [QueryProperty(nameof(ItemId), nameof(ItemId))]
 public partial class JC_NotePage : ContentPage
 {
-    string _fileName = Path.Combine(FileSystem.AppDataDirectory, "JC_BaseApuntes.txt");
+    
     public string ItemId
     {
         set { LoadNote(value); }

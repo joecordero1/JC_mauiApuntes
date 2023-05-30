@@ -3,7 +3,7 @@
     x:Class="JC_mauiApuntes.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:JC_mauiApuntes.JC_Views"
+    xmlns:views="clr-namespace:JC_mauiApuntes.JC_Views"
     Shell.FlyoutBehavior="Disabled">
 
     <TabBar>
@@ -14,7 +14,7 @@
 
         <ShellContent
             Title="Acerca de"
-            ContentTemplate="{DataTemplate local:JC_AboutPage}"
+            ContentTemplate="{DataTemplate views:JC_AboutPage}"
             Icon="{OnPlatform 'jc_icon_about.png', iOS='jc_icon_about_ios.png', MacCatalyst='jc_icon_about_ios.png'}" />
     </TabBar>
 
